@@ -33,8 +33,8 @@ main{
     padding-right: 240px;
 }
 footer{
-    background: green;
-    height: 100px;
+    background: rgba(0, 0, 0, 50%);
+    text-align: center;
 }
 h1{
     font-size: 84px;
@@ -55,4 +55,10 @@ nav a{ /* Jesli to znacznik a, w znaczniku nav */
     font-size: 12px;
     padding-left: 10px;
     padding-right: 10px;
+}
+footer p{
+    font-size: 10px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    color: rgba(255,255,255,60%);
 }
