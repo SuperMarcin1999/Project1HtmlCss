@@ -9,7 +9,6 @@ body{
     background-size: cover; /* Dopasowanie do wielkosci okna */
     background-repeat: no-repeat; /* Brak powtarzania obrazka */
     background-position: center; /* Jesli juz ucina obrazek, to dalej on jest na srodku */
-
 }
 .container{
     margin-left: auto;
@@ -22,8 +21,9 @@ header{
 }
 nav{
     background: rgba(0, 0, 0, 33%);
-    height: 40px;
     text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 main{
     height: 400px;
@@ -49,4 +49,10 @@ p{
 a{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+nav a{ /* Jesli to znacznik a, w znaczniku nav */
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
