@@ -21,8 +21,9 @@ header{
     text-align: center;
 }
 nav{
-    background: indianred;
+    background: rgba(0, 0, 0, 33%);
     height: 40px;
+    text-align: center;
 }
 main{
     height: 400px;
